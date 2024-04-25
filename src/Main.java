@@ -46,6 +46,7 @@ public class Main {
         System.out.println("Hola, " + name);
         */
 
+
         int i = 0;
         while (i < 3) {
             System.out.println("¡Hola, " + UserName + "!");
@@ -67,6 +68,7 @@ public class Main {
             System.out.println("No te entiendo!");
         }
 
+        scanner1.close();
         scanner2.close();
 
 
