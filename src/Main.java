@@ -55,7 +55,7 @@ public class Main {
         System.out.println(UserName + ", el número de letras de tu nombre es de: " + UserName.length() + " letras.");
 
         Scanner scanner2 = new Scanner(System.in);
-        System.out.println("Cuéntanos " + UserName + ", qué tal tu día? ");
+        System.out.println("Cuéntanos " + UserName + ", qué tal tu día? Bien, Regular o Mal?");
         String estado = scanner2.nextLine();
         if (estado.equals("Bien")) {
             System.out.println("Me alegro!");
